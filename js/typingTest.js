@@ -5,8 +5,8 @@ function start (callback){
   //     document.addEventListener();
   //   }
   // });
-  var userText = document.getElementById('userText').value;
-  var prompt = document.getElementById('prompt').innerHTML = x;
+  var text = document.getElementById('userText').value;
+  var prompt = document.getElementById('prompt').innerHTML = text;
 
 }
 
