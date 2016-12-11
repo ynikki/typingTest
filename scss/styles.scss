@@ -23,10 +23,13 @@ h2{
   align-items: center;
 }
 .container{
+  margin: 0 auto;
   display: inline-block;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-flow: row nowrap;
   height: 100vh;
+  box-sizing: border-box;
 }
 .time-box{
   display: flex;
@@ -46,6 +49,8 @@ h2{
   padding: 10px;
   border-radius: 10px;
   border: solid 2px #FFE66D;
+  text-align: center;
+  margin-top: 30px;
   h2{
     text-transform: uppercase;
     letter-spacing: .3rem;
