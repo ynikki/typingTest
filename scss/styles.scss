@@ -9,8 +9,6 @@ body{
 }
 h2{
   font-size: 1.4rem;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
 }
 .page-wrap{
   top: 0;
@@ -42,6 +40,8 @@ h2{
   border: solid 2px #FFE66D;
   display: inline-block;
   h2{
+    text-transform: uppercase;
+    letter-spacing: .3rem;
     text-align: center;
     padding: 10px;
   }
