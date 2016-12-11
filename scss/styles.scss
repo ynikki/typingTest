@@ -17,20 +17,19 @@ h2{
   bottom: 0;
   margin: auto;
   position: absolute;
-  position: absolute;
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .container{
-  margin: 0 auto;
-  display: inline-block;
+  margin: auto;
+  /*display: inline-block;
   justify-content: space-between;
-  align-items: center;
-  flex-flow: row nowrap;
-  height: 100vh;
-  box-sizing: border-box;
-}
+  align-items: center;*/
+/*  box-sizing: border-box;
+*/}
 .time-box{
   display: flex;
   justify-content: center;
