@@ -3,6 +3,8 @@ body{
  background-color: #292F36;
  color: #FCFFF7;
  height: 100vh;
+ margin: 0;
+ padding: 0;
 }
 
 .page-wrap{
@@ -28,13 +30,14 @@ h2{
   right: 0;
   left: 0;
   bottom: 0;
-  display: inline-block;
+  margin: 0 auto;
   position: absolute;
   height: 300px;
   width: 500px;
   background-color: #475360;
   padding: 10px;
   border-radius: 10px;
+  border: solid 2px #FFE66D;
 }
 
 #prompt{
