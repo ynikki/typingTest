@@ -7,9 +7,13 @@ body{
  color: #FCFFF7;
  height: 100vh;
 }
-
+h2{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
 .page-wrap{
-   top: 0;
+  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
@@ -22,9 +26,6 @@ body{
   align-items: center;
 }
 
-h2{
-  text-align: center;
-}
 
 .container{
   display: flex;
@@ -39,6 +40,11 @@ h2{
   padding: 10px;
   border-radius: 10px;
   border: solid 2px #FFE66D;
+  display: inline-block;
+  h2{
+    text-align: center;
+    padding: 10px;
+  }
 }
 
 #prompt{
