@@ -6,8 +6,6 @@ body{
  background-color: #292F36;
  color: #FCFFF7;
  height: 100vh;
- margin: 0;
- padding: 0;
 }
 
 .page-wrap{
@@ -79,6 +77,24 @@ button{
 button:hover{
   outline: none;
   border: none;
-  box-shadow: 0 6px #2AAFA7;
-  background-color: #4ECDC4;
+  animation: blinking 3s;
+}
+
+@keyframes blinking {
+  from {
+    box-shadow: 0 6px #2AAFA7;
+    background-color: #4ECDC4;
+  }
+  50% {
+    box-shadow: 0 6px #E04545;
+    background-color: #FF6B6B;
+  }
+  75% {
+    box-shadow: 0 6px #2AAFA7;
+    background-color: #4ECDC4;
+  }
+  to {
+    box-shadow: 0 6px #E04545;
+    background-color: #FF6B6B;    
+  }
 }
